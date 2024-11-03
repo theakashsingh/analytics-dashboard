@@ -60,6 +60,7 @@ export default function App() {
           <DashboardContent 
             data={processedData}
             activeTab={activeTab}
+            isLoading={!processedData || isLoading} 
           />
         )}
       </div>
